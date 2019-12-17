@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="VerizonTablet Test Suite" >
+ 
+	<test name="VerizonTablet Sanity Test">
+	
+		<classes>
+			<class name="Tests.VerizonMainPageTesting" />
+			<class name="Tests.SelectTabletPageTesting" />
+			<class name="Tests.ChoiceOneTabletTesting" />
+			<class name="Tests.TabletFeaturesPageTesting" />
+			<class name="Tests.VerifyItemNameTesting" />
+			
+		 </classes>
+	</test>
+</suite>
